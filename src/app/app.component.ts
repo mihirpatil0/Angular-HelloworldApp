@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Helloworld';
+  imgUrl="../assets/BridgeLabz.jpg";
 
-  ngOnInit(); void {
+ngOnInit(): void {
     this.title = "Hello from Bridgelabz.";
   }
 }
